@@ -26,7 +26,7 @@ using std::string;
 int main(int argc, char *argv[])
 {
     
-    const char *keyFilePath = "/Path/to/your/file/with/API-key-secret";
+    const char *keyFilePath = "apikey.txt";
     ifstream ifs(keyFilePath);
     if (!ifs.is_open())
     {
